@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Input Focus Effect</title>
+
+<style>
+input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    transition: border-color 0.4s, transform 0.4s;
+}
+
+input[type="text"]:focus {
+    border-color: green;
+    transform: rotate(1deg);
+    outline: none;
+}
+</style>
+
+</head>
+<body>
+
+<input type="text" placeholder="Enter your name">
+
+</body>
+</html>
