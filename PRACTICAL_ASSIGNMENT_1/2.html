@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Records Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #fff2cc;
+            color: red;
+        }
+        .marks-head {
+            background-color: #fff2cc;
+            color: red;
+        }
+        .data {
+            background-color: #c6e0b4;
+        }
+        .course {
+            background-color: #fff2cc;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Student Records</h2>
+
+<table>
+    <tr>
+        <th rowspan="2"></th>
+        <th rowspan="2">Roll No</th>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Course</th>
+        <th colspan="2" class="marks-head">Marks</th>
+        <th rowspan="2">Grade</th>
+    </tr>
+    <tr>
+        <th class="marks-head">Theory</th>
+        <th class="marks-head">Practical</th>
+    </tr>
+
+    <tr class="data">
+        <td rowspan="5" class="course">BTech</td>
+        <td>201</td>
+        <td>Arjun</td>
+        <td>BTech</td>
+        <td>78</td>
+        <td>82</td>
+        <td>A</td>
+    </tr>
+    <tr class="data">
+        <td>202</td>
+        <td>Neha</td>
+        <td>BTech</td>
+        <td>85</td>
+        <td>88</td>
+        <td>A+</td>
+    </tr>
+    <tr class="data">
+        <td>203</td>
+        <td>Vikas</td>
+        <td>BTech</td>
+        <td>70</td>
+        <td>75</td>
+        <td>B+</td>
+    </tr>
+    <tr class="data">
+        <td>204</td>
+        <td>Pooja</td>
+        <td>BTech</td>
+        <td>90</td>
+        <td>92</td>
+        <td>A+</td>
+    </tr>
+    <tr class="data">
+        <td>205</td>
+        <td>Amit</td>
+        <td>BTech</td>
+        <td>65</td>
+        <td>70</td>
+        <td>B</td>
+    </tr>
+</table>
+
+</body>
+</html>
