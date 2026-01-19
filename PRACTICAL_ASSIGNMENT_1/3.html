@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Information Form</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form>
+    <!-- Name -->
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Other"> Other<br><br>
+
+    <!-- Favorite Subject -->
+    <label>Favorite Subject:</label><br>
+    <select name="subject">
+        <option value="">--Select Subject--</option>
+        <option>Mathematics</option>
+        <option>Computer Science</option>
+        <option>Physics</option>
+        <option>Chemistry</option>
+    </select><br><br>
+
+    <label>Comments:</label><br>
+    <textarea name="comments" rows="4" cols="30"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
